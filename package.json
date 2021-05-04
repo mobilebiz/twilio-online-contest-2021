@@ -1,0 +1,12 @@
+{
+  "name": "twilio-online-contest-2021",
+  "version": "1.0.0",
+  "description": "Twilioオンラインコンテスト2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sh ./run.sh"
+  },
+  "author": "KDDI Web Communications Inc.",
+  "license": "ISC"
+}
