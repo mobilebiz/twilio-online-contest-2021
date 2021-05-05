@@ -141,6 +141,8 @@ EVENT_ENTRY()
     echo "　以下のURLからコンテストに応募します。${ESC}[31m（ProtoPediaへの登録だけではエントリーは完了しませんのでご注意ください）${ESC}[m"
     echo "　https://cloudapi.kddi-web.com/twilio-online-contest-2021"
     echo ""
+    open "https://protopedia.gitbook.io/helpcenter/registration"
+    open "https://cloudapi.kddi-web.com/twilio-online-contest-2021"
     return 0
 }
 
@@ -148,6 +150,7 @@ EVENT_ENTRY()
 EVENT_MOVIE()
 {
     echo "🎥 MOVIE"
+    open "https://www.youtube.com/watch?v=e4P5mlaMZ2Y"
     return 0
 }
 
